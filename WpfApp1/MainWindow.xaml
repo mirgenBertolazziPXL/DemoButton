@@ -10,7 +10,7 @@
         <TextBox x:Name="GebruikersnaamTextbox" HorizontalAlignment="Left" Margin="203,180,0,0" TextWrapping="Wrap" Text="Gebruikersnaam" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="WachtwoordTextBox" HorizontalAlignment="Left" Margin="203,0,0,0" TextWrapping="Wrap" Text="Wachtwoord" VerticalAlignment="Center" Width="120"/>
         <Button x:Name="InlogButton" Content="Inloggen" HorizontalAlignment="Left" Margin="454,110,0,0" VerticalAlignment="Top" Height="88" Width="117" Click="InlogButton_Click"/>
-        <Button x:Name="UitlogButton" Content="Uitloggen" HorizontalAlignment="Left" Margin="435,237,0,0" VerticalAlignment="Top" Height="73" Width="123"/>
+        <Button x:Name="UitlogButton" Content="Uitloggen" HorizontalAlignment="Left" Margin="435,237,0,0" VerticalAlignment="Top" Height="73" Width="123" Click="UitlogButton_Click"/>
         <TextBlock x:Name="TextTextbox" HorizontalAlignment="Left" Margin="23,189,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="122" Width="163"/>
 
     </Grid>

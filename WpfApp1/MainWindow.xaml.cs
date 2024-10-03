@@ -25,8 +25,15 @@ namespace WpfApp1
         {
             if(GebruikersnaamTextbox.Text == "admin" && WachtwoordTextBox.Text == "admin")
             {
-                TextTextbox.Text = "U word ingelogd";
+                TextTextbox.Text = "U wordt ingelogd";
             }
+        }
+
+        private async void UitlogButton_Click(object sender, RoutedEventArgs e)
+        {
+            TextTextbox.Text = "U wordt uitgelogd";
+            await Task.Delay(2000);
+            TextTextbox.Text = "";
         }
     }
 }
