@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="GebruikersnaamTextbox" HorizontalAlignment="Left" Margin="203,180,0,0" TextWrapping="Wrap" Text="Gebruikersnaam" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="WachtwoordTextBox" HorizontalAlignment="Left" Margin="203,0,0,0" TextWrapping="Wrap" Text="Wachtwoord" VerticalAlignment="Center" Width="120"/>
+        <TextBox x:Name="GebruikersnaamTextbox" HorizontalAlignment="Left" Margin="203,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="WachtwoordTextBox" HorizontalAlignment="Left" Margin="203,0,0,0" VerticalAlignment="Center" Width="120"/>
         <Button x:Name="InlogButton" Content="Inloggen" HorizontalAlignment="Left" Margin="454,110,0,0" VerticalAlignment="Top" Height="88" Width="117" Click="InlogButton_Click"/>
         <Button x:Name="UitlogButton" Content="Uitloggen" HorizontalAlignment="Left" Margin="435,237,0,0" VerticalAlignment="Top" Height="73" Width="123" Click="UitlogButton_Click"/>
-        <TextBlock x:Name="TextTextbox" HorizontalAlignment="Left" Margin="23,189,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="122" Width="163"/>
+        <TextBlock x:Name="TextTextbox" HorizontalAlignment="Left" Margin="111,209,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="28" Width="87"><Run Language="en-gb" Text="Wachtwoord"/></TextBlock>
+        <Label Content="Naam" HorizontalAlignment="Left" Margin="147,173,0,0" VerticalAlignment="Top" Height="35" Width="56"/>
 
     </Grid>
 </Window>

@@ -19,11 +19,12 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            WachtwoordTextBox.PasswordChar = '*';
         }
-
+       
         private void InlogButton_Click(object sender, RoutedEventArgs e)
         {
-            if(GebruikersnaamTextbox.Text == "admin" && WachtwoordTextBox.Text == "admin")
+            if(GebruikersnaamTextbox.Text == "admin" && WachtwoordTextBox.Password == "admin")
             {
                 TextTextbox.Text = "U wordt ingelogd";
             }
@@ -32,7 +33,7 @@ namespace WpfApp1
         private async void UitlogButton_Click(object sender, RoutedEventArgs e)
         {
             TextTextbox.Text = "U wordt uitgelogd";
-            await Task.Delay(2000);
+            await Task.Delay(1000);
             TextTextbox.Text = "";
         }
     }
