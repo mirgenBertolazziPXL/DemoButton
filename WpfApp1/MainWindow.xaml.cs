@@ -20,5 +20,13 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void InlogButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(GebruikersnaamTextbox.Text == "admin" && WachtwoordTextBox.Text == "admin")
+            {
+                TextTextbox.Text = "U word ingelogd";
+            }
+        }
     }
 }
